@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply text-white relative text-xl font-bold before:absolute before:top-0 before:left-0 before:bg-bright_green before:w-full before:h-full before:content-[''] before:rounded-10 before:translate-y-[5px] py-3 px-12 after:backdrop-blur-sm after:bg-btnWrap after:absolute after:top-0 after:left-0 after:bg-primary_green after:opacity-80 after:w-full after:h-full after:content-[''] after:rounded-10 hover:after:translate-y-[3px];
+}
+
